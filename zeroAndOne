@@ -1,0 +1,9 @@
+2's complement of a binary number is 1, added to the 1's complement of the binary number. In the 2's complement representation of binary numbers, the MSB represents the sign with a '0' used for plus sign and a '1' used for a minus sign.
+The ones' complement of a binary number is the value obtained by inverting (flipping) all the bits in the binary representation of the number.
+Suppose we're working with 8 bit quantities (for simplicity's sake) and suppose we want to find how -28 would be expressed in two's complement notation. First we write out 28 in binary form.
+00011100
+Then we invert the digits. 0 becomes 1, 1 becomes 0.
+11100011
+Then we add 1.
+11100100
+more [https://www.cs.cornell.edu/~tomf/notes/cps104/twoscomp.html]
